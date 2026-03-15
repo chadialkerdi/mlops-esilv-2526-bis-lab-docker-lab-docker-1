@@ -1,0 +1,3 @@
+docker stop ae1667b9b45a
+docker rm ae1667b9b45a
+docker run -d --name back-container -p 8080:5000 -e CURRENT_ENVIRONMENT=dev mantraouttandy/back-image-om:latest

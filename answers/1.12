@@ -1,0 +1,2 @@
+docker run -d --name back-container -p 8080:5000 -e CURRENT_ENVIRONMENT=dev mantraouttandy/back-image-om:latest
+docker run -d --name front-container -p 8081:80 -e WS_BACK_URL=http://host.docker.internal:8080 front-imaget

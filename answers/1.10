@@ -1,0 +1,2 @@
+docker exec -it back-container sh
+cat /etc/*release
