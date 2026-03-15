@@ -1,0 +1,12 @@
+services:
+  back:
+    image: mantraouttandy/back-image-om:latest
+    environment:
+      CURRENT_ENVIRONMENT: production
+
+  front:
+    image: front-image:latest
+    ports:
+      - "3000:80"
+    environment:
+      BACK_URL: http://back:5000
