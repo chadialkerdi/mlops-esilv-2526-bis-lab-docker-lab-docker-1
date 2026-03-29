@@ -231,3 +231,5 @@ Services must be started in detached mode. Try scaling the back webservice by tr
 Check that the hostnames change in the UI.
 
 And that's it!
+
+trigger actions
